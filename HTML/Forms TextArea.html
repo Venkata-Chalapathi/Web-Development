@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms TextArea</title>
+</head>
+<body>
+    <form action="/action">
+
+        <div>
+            Choose your Branch
+            <br>
+            <select name="branch" id="branch">
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+            </select>
+            <br>
+                
+            <div>
+                <label for="vol">Choose the Volume</label>
+                <input type="range" min="0" max="100" name="vol" step="10" value="10">
+            </div>
+            
+            <div>
+                <label for="feedback">Provide your feedback</label>
+                <textarea name="feedback" id="feedback" rows="5" cols="10" placeholder="write your feedback"></textarea>
+            </div>
+        </div>
+        <button type="submit" >Submit</button>
+    </form>
+    
+</body>
+</html>
