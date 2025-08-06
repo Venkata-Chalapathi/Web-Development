@@ -1,0 +1,31 @@
+h1{
+
+    text-align: center;
+    font-weight: bold;
+    text-decoration: red wavy underline;
+    letter-spacing: 15px;
+    font-size: 50px;
+    font-family: avant garde, sans-serif;
+}
+
+h2{
+    text-align: start;
+    text-decoration: blue line-through;
+}
+
+h3{
+    text-align: start;
+    text-decoration: violet double overline;
+}
+
+p{
+    text-align: justify;
+    font-weight: 100;
+    line-height: 2.5;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+a{
+    text-decoration: none;
+}

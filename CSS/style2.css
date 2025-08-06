@@ -1,0 +1,120 @@
+/* important */
+h3{
+    background-color: antiquewhite !important;
+}
+
+/* Universal Selector */
+*{
+    font-family: "Courier New";
+}
+/* Element selector */
+h3,h1{
+    color: #b92b27;
+}
+/* ID selector */
+#login{
+    background-color: white;
+}
+/* ID selector */
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+/* Class selector */
+.upvote{
+    background-color: palevioletred;
+    color: white;
+}
+/* Descendant selector */
+/* p a{
+    color: seagreen;
+    background-color: aliceblue;
+} */
+/* Descendant selector using Class */
+.post a{
+    color: seagreen;
+    background-color: aliceblue;
+}
+/* Descendant selector */
+nav ul li a{
+    color: hotpink;
+}
+/* Adjacent Sibling combinator */
+p + h3{
+    text-decoration: underline;
+}
+/* Adjacent Sibling combinator using class */
+.upvote + button{
+    background-color: darkkhaki;
+}
+/* Child combinator */
+div > input{
+    background-color: aqua;
+}
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+/* PracticeQS */
+/* #myID p{
+    color: blue;
+} */
+
+/* #myID > p{
+    color: plum;
+} */
+
+div[id="myID"] p{
+    color: blue;
+}
+/* PseudoClass 1 Hover*/
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* h3:hover{
+    text-decoration: overline;
+} */
+/* PseudoClass 2 Active*/
+button:active{
+    background-color: hotpink;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+/* PseudoClass 3 Checked*/
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: red;
+}
+/* PseudoClass 4 nth-of-type*/
+/* .post:nth-of-type(2n){
+    background-color: bisque;
+} */
+div:nth-of-type(2){
+    background-color: bisque;
+}
+/* Pseudo Elements 1 firstletter*/
+h1::first-letter{
+    color: green;
+}
+/* Pseudo Elements 2 firstline*/
+p::first-line{
+    color: purple;
+}
+
+p::selection{
+    color: limegreen;
+}
+/* Pseudo Elements 3 selection*/
+h3{
+    background-color: antiquewhite;
+    background-color: cadetblue;
+}

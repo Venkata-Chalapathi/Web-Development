@@ -1,0 +1,58 @@
+/* ID selector */
+
+#mainTopic{
+    color: blue;
+}
+
+/* universal selector */
+
+*{
+    text-align: center;
+}
+
+/* element selector */
+
+h1,h3,h5{
+    font-style: Georgia;
+}
+/* class selector */
+
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* Descendant selector */
+
+div button{
+    background-color: purple;
+    color: azure;
+}
+
+/*Hover */
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+/* nth-of-type */
+
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+
+/* first letter */
+
+h1::first-letter{
+    color: red;
+}
+/* checked */
+
+/* input[type="checkbox"]:checked+label{
+    color: darkgreen;
+} */ 
+
+#yes:checked+label{
+    color: darkgreen;
+}

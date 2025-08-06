@@ -1,0 +1,38 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* flex-wrap: wrap ; */
+    /* align-items: flex-start; */
+    align-content: flex-start;
+}
+#org{
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+#blue{
+    /* flex-basis: 400px; */
+    /* flex-grow: 2;
+    min-width: 300px; */
+    flex-shrink: 4;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height: 100px;
+    width: 300px;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    
+}

@@ -1,0 +1,22 @@
+.box{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.one{
+    background-color: red;
+    position: relative;
+    z-index: -1;
+}
+
+.two{
+    background-color: aqua;
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.three{
+    background-color: yellow;
+}

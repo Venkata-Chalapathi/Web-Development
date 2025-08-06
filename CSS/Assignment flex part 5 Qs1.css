@@ -1,0 +1,21 @@
+#container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.id{
+    height:100px;
+    width:100px;
+    background-color: grey;
+    border:2px solid black;
+    border-radius:10px;
+    font-size:50px;
+    text-align:center;
+
+}

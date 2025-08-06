@@ -1,0 +1,37 @@
+/* Box Model */
+div{
+    height: 200px;
+    width: 500px;
+    background-color: paleturquoise;
+   /*  border-width: 8px;
+    border-style: solid;
+    border-color: black;
+    border-left-color: yellowgreen;
+    border-left-style: dashed;
+    border-top: 5px burlywood dashed; */
+    border: 8px solid black;
+    border-radius: 15px;
+   /*  border-top-right-radius: 15px; */
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   /* margin-bottom: 50px; */
+   margin: 20px 30px 40px 50px;
+
+}
+/* Border shorthand */     
+h1{
+    /* border-width: 3px;
+    border-style: dotted;
+    border-color: maroon; */
+    border: 3px dashed olive;
+    margin: 0;
+}
+
+button{
+    border: 5px solid black;
+/*     border-radius: 10px;*/
+    padding: 0 30px 0 30px;
+    background-color: lightblue;
+}
